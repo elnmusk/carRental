@@ -1,0 +1,61 @@
+
+
+<div class="container">
+    <section>
+        <p class="list-title">პოპულარული მანქანები</p>
+
+        <div class="cars popular">
+            <div class="card" *ngFor="let car of popularCarsList()">
+                <h3>{{car.brand}}</h3>
+                <p>{{car.model}}/{{car.year}}</p>
+                <mat-tab-group>
+                    <mat-tab label="I"><img src="{{car.imageUrl1}}" alt=""></mat-tab>
+                    <mat-tab label="II"><img src="{{car.imageUrl2}}" alt=""></mat-tab>
+                    <mat-tab label="III"><img src="{{car.imageUrl3}}" alt=""></mat-tab>
+                </mat-tab-group>    
+                
+                <div class="specifics">
+                    <p>{{car.fuelCapacity}}ლ</p>
+                    <p>{{car.transmission}}</p>
+                    <p>{{car.capacity}} კაცი</p>
+                </div>
+
+                <div class="rent">
+                    <h2>{{car.price}}₾/<span>დღიური</span></h2>
+                    <a routerLink="/car-details"><button>იქირავე</button></a>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <p class="list-title">რეკომენდირებული მანქანები</p>
+
+
+        <div class="cars">
+            <div class="card" *ngFor="let car of carsList()">
+                <h3>{{car.brand}}</h3>
+                <p>{{car.model}}/{{car.year}}</p>
+                <mat-tab-group>
+                    <mat-tab label="I"><img src="{{car.imageUrl1}}" alt=""></mat-tab>
+                    <mat-tab label="II"><img src="{{car.imageUrl2}}" alt=""></mat-tab>
+                    <mat-tab label="III"><img src="{{car.imageUrl3}}" alt=""></mat-tab>
+                </mat-tab-group>   
+                
+                <div class="specifics">
+                    <p>{{car.fuelCapacity}}ლ</p>
+                    <p>{{car.transmission}}</p>
+                    <p>{{car.capacity}} კაცი</p>
+                </div>
+
+                <div class="rent">
+                    <h2>{{car.price}}₾/<span>დღიური</span></h2>
+                    <a routerLink="/car-details"><button>იქირავე</button></a>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+</div>

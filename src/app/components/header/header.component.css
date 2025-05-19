@@ -1,0 +1,34 @@
+header {
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+section {
+    max-width: 100%;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a button {
+    width: 130px;
+    height: 45px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    background-color: #3563E9;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.search-field {
+    width: 450px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+mat-label {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}

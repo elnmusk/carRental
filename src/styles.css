@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "BGP Nino Mtavruli", sans-serif; 
+    font-weight: 700;
+
+}
+
+.logo {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -3%;
+    color: #3563E9;
+}
+
+.container {
+    max-width: 100vw;
+    padding: 0 60px;
+}
+
+a {
+    color: black;
+}
+html, body { height: 100%; }
+body { margin: 0; background-color: #F6F7F9; }

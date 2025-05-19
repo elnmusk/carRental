@@ -1,0 +1,91 @@
+h3 {
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rent {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rent button {
+    width: 116px;
+    height: 44px;    
+    background-color: #3563E9;
+    border: none;
+    border-radius: 4px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h2 span {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    color: #90A3BF;
+    font-size: 14px;
+}
+
+.cars p {
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #90A3BF;
+}
+
+
+.cars {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+section {
+    background-color: #F6F7F9;
+
+}
+
+img {
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.specifics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specifics p {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.card {
+    padding: 15px;
+    width: 300px;
+    height: 430px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.popular {
+    margin-bottom: 70px;
+}
+
+.list-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
